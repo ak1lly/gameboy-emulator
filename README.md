@@ -48,18 +48,6 @@ sudo apt update
 sudo apt install build-essential pkg-config libsdl2-dev
 ```
 
-**Windows — MSYS2 UCRT64 shell:**
-
-```bash
-pacman -S --needed mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-SDL2 mingw-w64-ucrt-x86_64-pkgconf make
-```
-
-**macOS — Homebrew:**
-
-```bash
-brew install sdl2 pkg-config
-```
-
 ### Compile
 
 Run these commands from the directory containing the `Makefile` (named `gameboy_cpu` in the distributed archive):
@@ -273,22 +261,37 @@ After capturing the images, uncomment and update the following Markdown in this 
 ```md
 ### Pokémon Red
 
-![Pokémon Red running in the emulator](images/pokemon-red.png)
+![Pokémon Red running in the emulator]
+<img width="659" height="615" alt="image" src="https://github.com/user-attachments/assets/7623455c-ab63-4ff3-9d39-9fb74e4e6e6e" />
+<img width="656" height="614" alt="image" src="https://github.com/user-attachments/assets/f9074608-94a6-417e-a56e-5af0110924e2" />
+<img width="654" height="609" alt="image" src="https://github.com/user-attachments/assets/d52c5753-b73a-4f1f-b141-e66080de7b06" />
 
-*Tested on: [OS], [build/commit], [date]. Title screen: [yes/no].
-Gameplay: [yes/no]. Audio: [yes/no]. Saves: [yes/no].*
+
+*Tested on: Linux, 8/11/2026.
+Title screen: yes.
+Gameplay: yes.
+Audio: yes.
+Saves: yes.*
 
 ### Tetris
 
-![Tetris running in the emulator](images/tetris.png)
+![Tetris running in the emulator]
+<img width="656" height="611" alt="image" src="https://github.com/user-attachments/assets/020aa435-d1b7-4c0a-8d40-ccd60f8690f0" />
+<img width="658" height="617" alt="image" src="https://github.com/user-attachments/assets/c7b8645b-f067-4fd3-a9b2-118e6d00f882" />
 
-*Tested on: [OS], [build/commit], [date].*
 
-### Homebrew / hardware test
+*Tested on: Linux, 6/11/2026.
+Title screen: yes.
+Gameplay: yes.
 
-![Test ROM running in the emulator](images/test-rom.png)
+### Dr. Mario
+<img width="654" height="614" alt="image" src="https://github.com/user-attachments/assets/06407528-e965-4028-a444-5f4a5167632d" />
+<img width="655" height="616" alt="image" src="https://github.com/user-attachments/assets/d12f07c9-fe3c-4e7f-abfd-d652b5885fc0" />
 
-*Test ROM: [name]. Result: [pass/fail].*
+*Tested on: Linux, 6/11/2026.
+Title screen: yes.
+Gameplay: yes.
+
 ```
 
 A useful screenshot should show the actual emulator window, not an unrelated image of a real Game Boy. Capturing the title screen **and** a gameplay frame for a working game provides stronger compatibility evidence than a title screen alone.
