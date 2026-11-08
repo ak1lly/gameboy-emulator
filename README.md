@@ -260,7 +260,6 @@ After capturing the images, uncomment and update the following Markdown in this 
 
 ### Pokémon Red
 
-![Pokémon Red running in the emulator]
 <img width="659" height="615" alt="image" src="https://github.com/user-attachments/assets/7623455c-ab63-4ff3-9d39-9fb74e4e6e6e" />
 <img width="656" height="614" alt="image" src="https://github.com/user-attachments/assets/f9074608-94a6-417e-a56e-5af0110924e2" />
 <img width="654" height="609" alt="image" src="https://github.com/user-attachments/assets/d52c5753-b73a-4f1f-b141-e66080de7b06" />
@@ -274,7 +273,6 @@ Saves: yes.*
 
 ### Tetris
 
-![Tetris running in the emulator]
 <img width="656" height="611" alt="image" src="https://github.com/user-attachments/assets/020aa435-d1b7-4c0a-8d40-ccd60f8690f0" />
 <img width="658" height="617" alt="image" src="https://github.com/user-attachments/assets/c7b8645b-f067-4fd3-a9b2-118e6d00f882" />
 
