@@ -258,7 +258,6 @@ Create an `images/` folder and replace these placeholder entries after testing:
 
 After capturing the images, uncomment and update the following Markdown in this README:
 
-```md
 ### Pokémon Red
 
 ![Pokémon Red running in the emulator]
@@ -292,7 +291,7 @@ Gameplay: yes.
 Title screen: yes.
 Gameplay: yes.
 
-```
+
 
 A useful screenshot should show the actual emulator window, not an unrelated image of a real Game Boy. Capturing the title screen **and** a gameplay frame for a working game provides stronger compatibility evidence than a title screen alone.
 
